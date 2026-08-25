@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergey Kolomiets</title>
+    <link rel="stylesheet" href="modernNormilize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/favicon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="">HOME</a>
+        <div class="spacer"></div>
+        <a href="contacts.html">CONTACTS</a>
+    </nav>
+    <main>
+        <div class="name">
+            <h1>Sergey Kolomiets</h1>
+            <p>3D Artist - characters and creatures models</p>
+            <p>Main Software:</p>
+            <img src="Assets/svg/blender-1.svg">
+            <img src="Assets/svg/marmoset.svg">
+            <img src="Assets/svg/rizom_uv.svg">
+            <img src="Assets/svg/substancePainter.svg">
+            <img src="Assets/svg/photoshop.svg">
+            <div class="arrow-down"><p>Check my works below!</p></div>
+        </div>
+        <div class="portfolio_back">
+            <div class="portfolio_grid" id="portfolio_grid">
+
+              <div class="hoverTrigger">
+                    <div class="item">
+                        <div class="overlay open-modal" data-target="eyeSummoner">
+                            <div class="text-overlay">Eye Summoner</div>
+                        </div>
+                        <!-- Preview -->
+                         <img src="Assets/images/eyeSummoner/eyeSummonerPreview.jpg">
+                    </div>
+              </div>
+
+              <div class="hoverTrigger">
+                    <div class="item">
+                        <div class="overlay open-modal" data-target="dino">
+                            <div class="text-overlay">Dino sculpt</div>
+                        </div>
+                        <!-- Preview -->
+                        <img src="Assets/images/dino/dinoPreview.jpg">
+                    </div>
+              </div>
+
+              <div class="hoverTrigger">
+                    <div class="item">
+                        <div class="overlay open-modal" data-target="troll">
+                            <div class="text-overlay">Troll creature</div>
+                        </div>
+                        <!-- Preview -->
+                        <img src="Assets/images/trollCreature/trollPreview.jpg">
+                    </div>
+              </div>
+
+              <div class="hoverTrigger">
+                    <div class="item">
+                        <div class="overlay open-modal" data-target="sketches">
+                            <div class="text-overlay">Sketches</div>
+                        </div>
+                        <!-- Preview -->
+                         <img src="Assets/images/sketches/gustavo.png">
+                    </div>
+              </div>
+
+              <div class="hoverTrigger">
+                    <div class="item">
+                        <div class="overlay open-modal" data-target="swords">
+                            <div class="text-overlay">Stylied swords</div>
+                        </div>
+                        <!-- Preview -->
+                         <img src="Assets/images/swords/swordsPreview.jpg">
+                    </div>
+              </div>
+
+            </div>
+        </div>
+
+        <dialog class="modal hidden" id="sketches">
+            <button class="close-btn"><img src="Assets/svg/xmark-solid.svg"></button>
+            <div class="modal-content">
+                <img src="Assets/images/sketches/gustavo.png" loading="lazy">
+                <img src="Assets/images/sketches/femaleHeads.png" loading="lazy">
+                <img src="Assets/images/sketches/maleHeads.png" loading="lazy">
+            </div>
+        </dialog>
+
+        <dialog class="modal hidden" id="eyeSummoner">
+            <button class="close-btn"><img src="Assets/svg/xmark-solid.svg"></button>
+            <div class="modal-content">
+                <img src="Assets/images/eyeSummoner/eyeSummonerCloseShot.jpg" loading="lazy">
+                <img src="Assets/images/eyeSummoner/eyeSummonerClose.jpg" loading="lazy">
+                <img src="Assets/images/eyeSummoner/eyeSummonerClose2.jpg" loading="lazy">
+                <img src="Assets/images/eyeSummoner/eyeSummonerFront.jpg" loading="lazy">
+                <img src="Assets/images/eyeSummoner/eyeSummonerback.jpg" loading="lazy">
+                <img src="Assets/images/eyeSummoner/julio-nicoletti-summoninggirl.jpg" loading="lazy">
+                <p>Concept by Julio Nicoletti</p>
+            </div>
+        </dialog>
+
+        <dialog class="modal hidden" id="dino">
+            <button class="close-btn"><img src="Assets/svg/xmark-solid.svg"></button>
+            <div class="modal-content">
+                <img src="Assets/images/dino/dino_render_blue.jpg" loading="lazy">
+                <img src="Assets/images/dino/dino_clay.jpg" loading="lazy">
+                <p>Clay render</p>
+                <img src="Assets/images/dino/nicola-saviori-dinosheadsbarionix.jpg" loading="lazy">
+                <p>Concept Art by Nicola Saviori</p>
+            </div>
+        </dialog>
+
+        <dialog class="modal hidden" id="troll">
+            <button class="close-btn"><img src="Assets/svg/xmark-solid.svg"></button>
+            <div class="modal-content">
+                <img src="Assets/images/trollCreature/troll.jpg" loading="lazy">
+                <img src="Assets/images/trollCreature/trollConcept.jpg" loading="lazy">
+            </div>
+        </dialog>
+
+        <dialog class="modal hidden" id="swords">
+            <button class="close-btn"><img src="Assets/svg/xmark-solid.svg"></button>
+            <div class="modal-content">
+                <img src="Assets/images/swords/swords.jpg" loading="lazy">
+                <img src="Assets/images/swords/swordsWireframe.jpg" loading="lazy">
+                <p>Wireframe</p>
+                <img src="Assets/images/swords/swordsConcept.jpg" loading="lazy">
+            </div>
+        </dialog>
+
+    </main>
+    <footer>
+        <p>Created by Sergey Kolomiets</p>
+        <p>2026</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
